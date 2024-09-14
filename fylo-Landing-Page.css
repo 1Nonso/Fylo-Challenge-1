@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+#H-Sd {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#H-Fd {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 0 0 1rem;
+}
+
+#H-i {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.H-p {
+  display: inline;
+  text-align: center;
+  width: 30%;
+  align-items: center;
+}
+
+.H-p:hover {
+  cursor: pointer;
+  background-color: #e4e1e1;
+}
+
+main {
+  background: url(images/bg-curve-mobile.svg) no-repeat bottom;
+  background-size: 650% 67%;
+}
+
+#F-ill,
+#S-ill {
+  width: 100%;
+}
+
+h2 {
+  margin: 3rem 3rem 1.5rem 3rem;
+  text-align: center;
+}
+
+#first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.first-input {
+  height: 2rem;
+  width: 16.6rem;
+  padding-left: 1rem;
+}
+
+#main-p1 {
+  margin: 0 2.3rem 1.5rem 2.3rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+button {
+  background-color: hsl(224, 93%, 58%);
+  width: 17.6rem;
+  margin-top: 1rem;
+  height: 2rem;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 20px -5px black;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0 hsl(224, 93%, 58%);
+}
+
+#S-h {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+#main-ps {
+  margin: 0 1.5rem 1rem 1.5rem;
+  color: hsl(0, 0%, 70%);
+}
+
+#link-a {
+  padding-left: 0.6rem;
+  width: 1.5rem;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 6.5rem 3rem 6.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: hsl(170, 45%, 43%);
+}
+
+#quote-box {
+  margin: 0 2rem 5rem 2rem;
+  background-color: #fff;
+  padding: 1.5rem 1rem 1rem 1.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 60px -50px;
+}
+
+#quotes-p {
+  margin: 1rem 0 2rem 0;
+  line-height: 1.7rem;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+#a-test {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  margin-right: 0.5rem;
+}
+
+h4 {
+  display: inline;
+}
+
+#f-p {
+  font-size: 20px;
+}
+
+#Founder {
+  display: flex;
+}
+
+#third-section {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 22rem;
+  color: #fff;
+}
+
+h3 {
+  text-align: center;
+}
+
+#contact-info {
+  width: 17rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 1rem 1rem;
+}
+
+.second-input {
+  width: 15rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+.second-button {
+  margin: 0;
+  margin-top: 0.5rem;
+  width: 15.7rem;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 4rem 2rem;
+  color: #fff;
+}
+
+#Phone,
+#email {
+  display: flex;
+  margin: 1rem 0;
+}
+
+#img-phone,
+#img-email {
+  padding-right: 0.7rem;
+}
+
+.low-para,
+.last-para {
+  margin-top: 1rem;
+}
+
+.low-para:hover,
+.last-para:hover {
+  cursor: pointer;
+  color: hsl(224, 93%, 58%);
+}
+
+#about-us,
+#contact-us {
+  margin: 2.5rem 0;
+}
+
+#socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Fylo-logo {
+  margin-bottom: 1rem;
+}
+
+#logos {
+  margin: 0 0.5rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: space-between;
+  }
+
+  #H-Sd {
+    width: auto;
+  }
+
+  .H-p {
+    width: 8rem;
+  }
+
+  main {
+    background: url(images/bg-curve-desktop.svg) no-repeat bottom;
+    background-size: 400% 63%;
+  }
+
+  #upper-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  #F-ill,
+  #S-ill {
+    width: 35rem;
+    height: 30rem;
+  }
+
+  #main-p1,
+  h2 {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #First-bf {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  button {
+    width: 10rem;
+    margin-left: 2rem;
+  }
+
+  #first-section {
+    margin-right: 5rem;
+    align-items: flex-start;
+    width: 30rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #lower-section {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10rem 0 5rem 0;
+  }
+
+  strong,
+  h2 {
+    font-size: 2rem;
+  }
+
+  #main-p1,
+  #main-ps {
+    font-size: 1.4rem;
+  }
+
+  #L-s {
+    width: 30rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #S-h {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  #main-ps {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    justify-content: flex-start;
+    width: 12rem;
+    margin: 2rem 0;
+  }
+
+  #quote-box {
+    margin: 0;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #quotes-p {
+    margin: 0;
+  }
+
+  #third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15rem;
+  }
+
+  .second-input {
+    width: 20rem;
+  }
+
+  .second-button {
+    width: 15rem;
+  }
+
+  h3,
+  #contact-info {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+  }
+}
